@@ -1,5 +1,5 @@
 class Car:
-    runs: True
+    runs = True
 
     def start(self):
         if self.runs:
@@ -10,3 +10,6 @@ class Car:
 my_car = Car()
 my_car.runs = False
 my_car.start()
+
+my_second_car = Car()
+my_second_car.start()

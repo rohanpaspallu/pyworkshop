@@ -5,3 +5,6 @@ print(name_lengths)
 # List of names having even number of characters
 even_length_names = [name for name in names if len(name) % 2 == 0]
 print(even_length_names)
+
+upper_case_names = [name.upper() for name in names]
+print(upper_case_names)

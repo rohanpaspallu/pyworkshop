@@ -18,3 +18,6 @@ print(list(range(0, 20, 2)))  # This will create a list of even numbers from 0 t
 # get squares of numbers from 0 to 9 using list comprehension
 squares = [x**2 for x in range(10)]
 print(squares)
+
+# print items from names
+print([name for name in names])
